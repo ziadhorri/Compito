@@ -73,9 +73,79 @@ namespace Compito.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Albert {
+            get {
+                object obj = ResourceManager.GetObject("Albert", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bg_CharSelect {
+            get {
+                object obj = ResourceManager.GetObject("Bg_CharSelect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bg_choice {
             get {
                 object obj = ResourceManager.GetObject("Bg_choice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Bg_Music {
+            get {
+                object obj = ResourceManager.GetObject("Bg_Music", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btb_Take {
+            get {
+                object obj = ResourceManager.GetObject("Btb_Take", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btn_ArrowL {
+            get {
+                object obj = ResourceManager.GetObject("Btn_ArrowL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btn_ArrowR {
+            get {
+                object obj = ResourceManager.GetObject("Btn_ArrowR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btn_Back {
+            get {
+                object obj = ResourceManager.GetObject("Btn_Back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +156,16 @@ namespace Compito.Properties {
         internal static System.Drawing.Bitmap Btn_Cancel {
             get {
                 object obj = ResourceManager.GetObject("Btn_Cancel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btn_Create {
+            get {
+                object obj = ResourceManager.GetObject("Btn_Create", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -151,6 +231,16 @@ namespace Compito.Properties {
         }
         
         /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Fallout_intro {
+            get {
+                object obj = ResourceManager.GetObject("Fallout_intro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Immagine_2025_01_05_165824 {
@@ -183,6 +273,26 @@ namespace Compito.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Max {
+            get {
+                object obj = ResourceManager.GetObject("Max", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Natalia {
+            get {
+                object obj = ResourceManager.GetObject("Natalia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Perception {
             get {
                 object obj = ResourceManager.GetObject("Perception", resourceCulture);
@@ -207,24 +317,6 @@ namespace Compito.Properties {
             get {
                 object obj = ResourceManager.GetObject("Strength", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        internal static System.Byte[] Fallout_intro
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("Fallout_intro", resourceCulture);
-                return ((System.Byte[])(obj));
-            }
-        }
-
-        internal static System.Byte[] Bg_Music
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("Bg_Music", resourceCulture);
-                return ((System.Byte[])(obj));
             }
         }
     }

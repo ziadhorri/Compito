@@ -547,7 +547,7 @@
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(723, 493);
+            ClientSize = new Size(712, 490);
             Controls.Add(Pb_statInfo);
             Controls.Add(Btn_cancel);
             Controls.Add(Btn_done);
@@ -557,9 +557,13 @@
             Controls.Add(Lbl_CharName);
             Font = new Font("Consolas", 12F, FontStyle.Bold, GraphicsUnit.Point);
             ForeColor = Color.LimeGreen;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Margin = new Padding(4);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Char_Creator";
-            Text = "Char_Creator";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Character Creator";
             Load += Char_Creator_Load;
             Gbox_gender.ResumeLayout(false);
             Gbox_gender.PerformLayout();

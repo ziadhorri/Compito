@@ -42,13 +42,6 @@ namespace Compito
             char_Creator.Show();
         }
 
-        private void Btn_LoadGame_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
         private void Btn_Intro_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -87,6 +80,13 @@ namespace Compito
             {
                 File.Delete(tempPath);
             }
+        }
+
+        private void Btn_LoadChar_Click(object sender, EventArgs e)
+        {
+            Char_Loader char_Loader = new Char_Loader(this);
+            this.Hide();
+            char_Loader.Show();
         }
     }
 }

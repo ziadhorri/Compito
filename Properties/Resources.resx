@@ -118,55 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Immagine 2025-01-05 165824" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Immagine 2025-01-05 165824.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PnlKMU4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\PnlKMU4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Strength" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Strength.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_Minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Btn_Minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_Plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Btn_Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CharP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\CharP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Btn_Done" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Btn_Done.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Bg_choice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Bg_choice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Btn_Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Btn_Cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Agility" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Agility.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Intelligence" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Intelligence.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Charisma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Charisma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Endurance" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Endurance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Luck" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Luck.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Btb_Take" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btb_Take.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Perception" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Perception.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fallout_intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Fallout_intro.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Btn_ArrowL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_ArrowL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bg_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Bg_Music.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Done" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_Done.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intelligence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Intelligence.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bg_CharSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Bg_CharSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_Cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2025-01-05 165824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Immagine 2025-01-05 165824.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_ArrowR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_ArrowR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Endurance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Endurance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_Create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_Create.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Albert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Albert.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_Back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_Plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Luck.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_Minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Btn_Minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charisma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Charisma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fallout_intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Fallout_intro.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PnlKMU4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\PnlKMU4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Max" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Max.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agility" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Agility.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Natalia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Natalia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

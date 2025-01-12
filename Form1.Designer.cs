@@ -35,7 +35,7 @@
             Btn_Intro = new Button();
             Btn_Exit = new Button();
             Btn_NewGame = new Button();
-            Btn_LoadGame = new Button();
+            Btn_LoadChar = new Button();
             axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)Main_Bg).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Main_Bar).BeginInit();
@@ -120,28 +120,28 @@
             Btn_NewGame.FlatStyle = FlatStyle.Flat;
             Btn_NewGame.Font = new Font("Showcard Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             Btn_NewGame.ForeColor = Color.Gold;
-            Btn_NewGame.Location = new Point(529, 130);
+            Btn_NewGame.Location = new Point(529, 175);
             Btn_NewGame.Name = "Btn_NewGame";
             Btn_NewGame.Size = new Size(185, 33);
             Btn_NewGame.TabIndex = 5;
             Btn_NewGame.Text = "NEW GAME";
             Btn_NewGame.UseVisualStyleBackColor = false;
             // 
-            // Btn_LoadGame
+            // Btn_LoadChar
             // 
-            Btn_LoadGame.BackColor = Color.Transparent;
-            Btn_LoadGame.BackgroundImage = Properties.Resources.Bg_choice;
-            Btn_LoadGame.FlatAppearance.BorderSize = 0;
-            Btn_LoadGame.FlatStyle = FlatStyle.Flat;
-            Btn_LoadGame.Font = new Font("Showcard Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Btn_LoadGame.ForeColor = Color.Gold;
-            Btn_LoadGame.Location = new Point(529, 175);
-            Btn_LoadGame.Name = "Btn_LoadGame";
-            Btn_LoadGame.Size = new Size(185, 33);
-            Btn_LoadGame.TabIndex = 6;
-            Btn_LoadGame.Text = "LOAD GAME";
-            Btn_LoadGame.UseVisualStyleBackColor = false;
-            Btn_LoadGame.Click += Btn_LoadGame_Click;
+            Btn_LoadChar.BackColor = Color.Transparent;
+            Btn_LoadChar.BackgroundImage = Properties.Resources.Bg_choice;
+            Btn_LoadChar.FlatAppearance.BorderSize = 0;
+            Btn_LoadChar.FlatStyle = FlatStyle.Flat;
+            Btn_LoadChar.Font = new Font("Showcard Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Btn_LoadChar.ForeColor = Color.Gold;
+            Btn_LoadChar.Location = new Point(529, 130);
+            Btn_LoadChar.Name = "Btn_LoadChar";
+            Btn_LoadChar.Size = new Size(185, 33);
+            Btn_LoadChar.TabIndex = 6;
+            Btn_LoadChar.Text = "LOAD CHARACTER";
+            Btn_LoadChar.UseVisualStyleBackColor = false;
+            Btn_LoadChar.Click += Btn_LoadChar_Click;
             // 
             // axWindowsMediaPlayer1
             // 
@@ -159,14 +159,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(821, 502);
             Controls.Add(axWindowsMediaPlayer1);
-            Controls.Add(Btn_LoadGame);
+            Controls.Add(Btn_LoadChar);
             Controls.Add(Btn_NewGame);
             Controls.Add(Btn_Exit);
             Controls.Add(Btn_Intro);
             Controls.Add(Btn_CreateChar);
             Controls.Add(Main_Bar);
             Controls.Add(Main_Bg);
-            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Main_Menu";
@@ -187,7 +187,7 @@
         private Button Btn_Intro;
         private Button Btn_Exit;
         private Button Btn_NewGame;
-        private Button Btn_LoadGame;
+        private Button Btn_LoadChar;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
     }
 }

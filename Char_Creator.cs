@@ -73,6 +73,7 @@ namespace Compito
             Lbl_points.Text = pointsAvailable.ToString("00");
         }
 
+
         private void Char_Creator_Load(object sender, EventArgs e)
         {
             // Inizializza le statistiche e l'interfaccia
@@ -151,6 +152,9 @@ namespace Compito
                                           intelligence, agility, luck);
 
             MessageBox.Show("Character created succesfully!\n\n" + newCharacter.ToString());
+
+            newCharacter.SaveCharacterToFile();
+
             menu.Show();
             this.Close();
         }

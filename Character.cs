@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Compito
@@ -31,6 +32,35 @@ namespace Compito
             Intelligence = intelligence;
             Agility = agility;
             Luck = luck;
+        }
+
+        public void SaveCharacterToFile()
+        {
+
+            // Percorso della sottocartella "Character"
+            string characterPath = Path.Combine(Directory.GetCurrentDirectory(), "Character");
+
+            // Controlla se la cartella "Character" esiste, altrimenti la crea
+            if (!Directory.Exists(characterPath))
+            {
+                Directory.CreateDirectory(characterPath);
+            }
+
+            // Percorso completo del file basato sul nome del personaggio
+            string fileName = $"{this.Name}.json";
+            string filePath = Path.Combine(characterPath, fileName);
+
+            // Serializza l'oggetto in formato JSON
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true // Rende il JSON indentato
+            };
+            string json = JsonSerializer.Serialize(this, options);
+
+            // Salva il JSON su disco
+            File.WriteAllText(filePath, json);
+
+            MessageBox.Show($"Character salvato in: {filePath}");
         }
 
         // Metodo per visualizzare i dati del personaggio
