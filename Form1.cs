@@ -1,17 +1,45 @@
 using System.Reflection;
 using AxWMPLib;
 using WMPLib;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Compito
 {
     public partial class Main_Menu : Form
     {
+        [DllImport("kernel32.dll", SetLastError = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static extern bool AllocConsole();
+
         private bool wasPlaying = false;
 
         public Main_Menu()
         {
             InitializeComponent();
             PlayAudioFromResources();
+        }
+
+        private void StartGame()
+        {
+            // Scrivi il testo di benvenuto nella console
+            Console.WriteLine("Benvenuto in Fallout 1: Il Gioco Testuale!");
+            Console.WriteLine("Ti svegli nel Vault 13, un rifugio sotterraneo. Il tuo compito è uscire e trovare il chip di acqua.");
+            Console.WriteLine("Sei pronto? (Sì / No)");
+
+            // Chiedi una risposta
+            string playerChoice = Console.ReadLine();
+
+            if (playerChoice.Equals("Sì", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("Hai deciso di partire alla ricerca del chip di acqua.");
+            }
+            else
+            {
+                Console.WriteLine("Hai deciso di rimanere nel Vault. Ma i tuoi compagni ti dicono che non c'è più tempo.");
+            }
+
+            // Continua con il gioco...
         }
 
         private void PlayAudioFromResources()
@@ -87,6 +115,15 @@ namespace Compito
             Char_Loader char_Loader = new Char_Loader(this);
             this.Hide();
             char_Loader.Show();
+        }
+
+        private void Btn_NewGame_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            AllocConsole();
+            Console.ForegroundColor = ConsoleColor.Green;
+            StartGame();
         }
     }
 }

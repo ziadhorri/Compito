@@ -126,6 +126,7 @@
             Btn_NewGame.TabIndex = 5;
             Btn_NewGame.Text = "NEW GAME";
             Btn_NewGame.UseVisualStyleBackColor = false;
+            Btn_NewGame.Click += Btn_NewGame_Click;
             // 
             // Btn_LoadChar
             // 
