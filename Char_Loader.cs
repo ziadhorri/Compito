@@ -65,7 +65,11 @@ namespace Compito
         {
             string currentImageName = imageNames[currentImageIndex];
 
-            string jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Character", "BaseCharacters", $"{currentImageName}.json");
+            // Ottieni la directory principale del progetto (risalendo di tre livelli rispetto alla cartella di output)
+            string projectDirectory = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\"));
+
+            // Costruisci il percorso per la cartella BaseCharacters
+            string jsonPath = Path.Combine(projectDirectory, "BaseCharacters", $"{currentImageName}.json");
 
             using (StreamReader reader = new StreamReader(jsonPath))
             {
@@ -74,6 +78,7 @@ namespace Compito
 
                 // Deserializza il contenuto del file in un oggetto Character
                 Character character = JsonSerializer.Deserialize<Character>(jsonContent);
+                menu.Character = character;
 
                 MessageBox.Show("Character created succesfully!\n\n" + character.ToString());
                 menu.Show();

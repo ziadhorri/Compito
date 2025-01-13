@@ -148,12 +148,13 @@ namespace Compito
             int agility = int.Parse(Lbl_value5.Text);
             int luck = int.Parse(Lbl_value6.Text);
 
-            Character newCharacter = new Character(name, gender, strength, perception, endurance, charisma,
+            Character character = new Character(name, gender, strength, perception, endurance, charisma,
                                           intelligence, agility, luck);
+            menu.Character = character;
 
-            MessageBox.Show("Character created succesfully!\n\n" + newCharacter.ToString());
+            MessageBox.Show("Character created succesfully!\n\n" + character.ToString());
 
-            newCharacter.SaveCharacterToFile();
+            character.SaveCharacterToFile();
 
             menu.Show();
             this.Close();

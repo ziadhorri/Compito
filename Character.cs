@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Compito
 {
-    internal class Character
+    public class Character
     {
         public string Name { get; private set; }
         public string Gender { get; private set; }
