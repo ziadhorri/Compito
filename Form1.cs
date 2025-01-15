@@ -179,6 +179,8 @@ namespace Compito
             WriteWithDelay("Ahead lies a vast desert, and in the distance, you see the ruins of an old town.");
             WriteWithDelay("\nYour journey has just begun...");
             WriteWithDelay("\nCongratulations! You have survived the first step of your adventure.");
+            WriteWithDelay("Press any key to exit...");
+            Console.ReadKey();
         }
     
 
